@@ -10,9 +10,3 @@ This Flask application simulates and visualizes percolation theory on a grid.
 - **Responsive Design:** Uses CSS for a clean and responsive layout.
 - **Modular Backend:** Percolation logic is separated into `percolation_logic.py`.
 
-## Getting Started
-
-1. **Clone the repository:**
-   ```bash
-   git clone <repository_url>
-   cd percolation_app
