@@ -1,0 +1,115 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Improved font */
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef; /* Lighter background */
+    color: #495057; /* Darker text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: #fff;
+    padding: 40px; /* Increased padding */
+    border-radius: 12px; /* More rounded corners */
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    width: 90%; /* Slightly wider */
+    max-width: 700px; /* Increased max-width */
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 30px; /* Increased margin */
+    color: #007bff; /* Primary color */
+    font-weight: 600; /* Slightly bolder */
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 25px; /* Increased margin */
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500; /* Slightly bolder */
+    color: #343a40; /* Darker label color */
+}
+
+.form-group input[type="number"],
+.form-group input[type="range"] {
+    width: 100%;
+    padding: 12px 15px; /* Increased padding */
+    border: 1px solid #ced4da;
+    border-radius: 8px; /* Rounded input corners */
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 16px;
+    transition: border-color 0.2s ease-in-out; /* Smooth transition */
+}
+
+.form-group input[type="number"]:focus,
+.form-group input[type="range"]:focus {
+    outline: none;
+    border-color: #007bff; /* Highlight on focus */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Subtle focus shadow */
+}
+
+button[type="submit"] {
+    background-color: #007bff; /* Primary color */
+    color: white;
+    padding: 12px 25px; /* Adjusted padding */
+    border: none;
+    border-radius: 8px; /* Rounded button corners */
+    cursor: pointer;
+    font-size: 18px; /* Slightly larger font */
+    font-weight: 500;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 30px 0; /* Increased margin */
+    border-radius: 8px; /* Rounded image corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle image shadow */
+}
+
+.error {
+    color: #dc3545; /* Error color */
+    margin-bottom: 15px;
+}
+
+/* Styling for links */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 30px;
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+}

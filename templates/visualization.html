@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percolation Network</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Percolation Network Visualization</h1>
+        <img src="{{ url_for('send_image', filename=image_name) }}" alt="Percolation Network">
+        <p><a href="{{ url_for('download_file', filename=image_name) }}">Download Image</a></p>
+        <p><a href="{{ url_for('index') }}">Generate Another Network</a></p>
+    </div>
+</body>
+</html>
